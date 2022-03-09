@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {}
+
+body {
+    background-color: rgb(214, 240, 240);
+}
+
+.navbar {
+    position: relative;
+    height: 60px;
+    /* padding: 30px; */
+    background-color: orange;
+}
+
+.navbar ul li {
+    position: relative;
+    left: 295px;
+    top: 14px;
+    display: inline-block;
+    list-style: none;
+    border: 2px solid red;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 0 118px 0 30px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+    font-size: 17px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+div ul li:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar ::before {
+    background: transparent;
+}
+
+.navbar ::before {
+    background-image: url(./nathan-dumlao-ewGMqs2tmJI-unsplash\ \(1\).jpg);
+}
+
+.main {
+    height: 537px;
+    background-image: url(./nathan-dumlao-ewGMqs2tmJI-unsplash\ \(1\).jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainheading {
+    display: inline;
+    position: relative;
+    top: 53px;
+    border: 2px solid red;
+    font-size: 28px;
+    border-radius: 30px;
+    color: rgb(38, 1, 73);
+    padding: 10px;
+}
+
+.bigbox {
+    margin-top: 204px;
+}
+
+.box {
+    height: 185px;
+    width: 226px;
+    background-color: rgb(221 189 189 / 51%);
+    display: inline-block;
+    border-radius: 4px;
+    border: 2px solid red;
+    margin: 24px;
+    padding: 12px;
+    box-shadow: 2px 0px 1px rgb(0 0 0);
+}
+
+.box p {
+    margin-top: 10px;
+}
+
+.box img {
+    width: 150px;
+    border: 2px solid;
+    border-radius: 8px;
+    margin-top: 9px;
+}
+
+.bigbox :hover {
+    transition: transform .10s;
+    transform: scale(0.97);
+}
+
+.bigbox :hover {
+    transition: transform .7s;
+    transform: scale(1.1);
+}
+
+.box2 {}
+
+.box3 {}
+
+.box4 {}
+
+footer {
+    height: 47px;
+    background-color: rgb(123 223 123 / 97%);
+    text-align: center;
+}
